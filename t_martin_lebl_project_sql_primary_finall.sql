@@ -5,13 +5,13 @@ SELECT -- nástřel primární tabulky
 	cp.value,
 	cp2.category_code,
 	cpc.name AS food_category,
-	cp2.value AS price_in_year
+	round(avg(cp2.value),2) AS price_in_year
 FROM czechia_payroll cp 
-JOIN czechia_payroll_industry_branch cpib
+LEFT JOIN czechia_payroll_industry_branch cpib
 	ON cp.industry_branch_code = cpib.code
-JOIN czechia_price cp2 
+LEFT JOIN czechia_price cp2 
 	ON year(cp2.date_from) = cp.payroll_year
-JOIN czechia_price_category cpc 
+LEFT JOIN czechia_price_category cpc 
 	ON cp2.category_code = cpc.code
 WHERE 
 	cp.value_type_code = 5958 
