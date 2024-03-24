@@ -1,3 +1,4 @@
+-- Discord Lebl M. (Mufinoha)
 CREATE OR REPLACE VIEW v_martin_lebl_avg_wages AS
 SELECT 
 	DISTINCT pf.name,

@@ -1,3 +1,4 @@
+-- Discord Lebl M. (Mufinoha)
 CREATE OR REPLACE TABLE t_martin_lebl_project_sql_primary_final_1 AS 
 SELECT -- nástřel primární tabulky
 	cp.payroll_year AS 'year',

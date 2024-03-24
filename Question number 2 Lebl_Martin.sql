@@ -1,3 +1,4 @@
+-- Discord Lebl M. (Mufinoha)
 CREATE OR REPLACE VIEW v_martin_lebl_question_2 AS -- pomocný pohled
 SELECT 
 	category_code,
