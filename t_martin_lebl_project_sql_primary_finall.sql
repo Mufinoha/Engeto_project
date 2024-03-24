@@ -26,3 +26,5 @@ GROUP BY
 	cp.value,
 	cp2.category_code,
 	cpc.name;
+
+CREATE OR REPLACE INDEX i_primary_final ON czechia_price(value);
