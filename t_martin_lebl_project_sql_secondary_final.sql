@@ -1,4 +1,3 @@
--- Discord Lebl M. (Mufinoha)
 CREATE OR REPLACE TABLE t_martin_lebl_project_sql_secondary_final AS
 SELECT
 	country,

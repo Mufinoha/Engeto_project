@@ -1,6 +1,5 @@
--- Discord Lebl M. (Mufinoha)
 SELECT *
-FROM t_martin_lebl_project_sql_primary_final_1 pf 
+FROM t_martin_lebl_project_sql_primary_final_1 pf;
 
 WITH avg_wages AS (
 	SELECT 
@@ -8,7 +7,9 @@ WITH avg_wages AS (
 		name,
 		round(avg(value)) AS avg_wages
 	FROM t_martin_lebl_project_sql_primary_final_1 AS pf 
-	GROUP BY `year`,name
+	GROUP BY 
+	`year`,
+	name
 	)
 SELECT
 	DISTINCT aw.name,
