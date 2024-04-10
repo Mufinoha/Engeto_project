@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE t_martin_lebl_project_sql_primary_final_1 AS 
+CREATE OR REPLACE TABLE t_martin_lebl_project_sql_primary_final_1 AS
 SELECT
 	cp.payroll_year AS 'year',
 	cpib.name,
