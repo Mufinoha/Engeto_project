@@ -1,6 +1,6 @@
 CREATE OR REPLACE VIEW v_martin_lebl_GDP_diff AS
 WITH gdp_diff AS (
-SELECT 
+SELECT
 	country,
 	`year`,
 	GDP 

@@ -2,7 +2,7 @@ SELECT *
 FROM t_martin_lebl_project_sql_primary_final_1 pf;
 
 WITH avg_wages AS (
-	SELECT 
+	SELECT
 		`year`,
 		name,
 		round(avg(value)) AS avg_wages

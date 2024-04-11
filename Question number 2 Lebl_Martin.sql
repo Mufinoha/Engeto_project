@@ -1,5 +1,5 @@
 CREATE OR REPLACE VIEW v_martin_lebl_question_2 AS -- pomocný pohled
-SELECT 
+SELECT
 	category_code,
 	food_category,
 	`year`,

@@ -1,5 +1,5 @@
 CREATE OR REPLACE VIEW v_martin_lebl_avg_wages AS
-SELECT 
+SELECT
 	DISTINCT pf.name,
 	pf.`year`,
 	round(avg(pf.value)) AS avg_wages 

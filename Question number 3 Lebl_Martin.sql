@@ -1,4 +1,4 @@
-SELECT * 
+SELECT *
 FROM t_martin_lebl_project_sql_primary_final_1 pf;
 
 CREATE OR REPLACE INDEX i_primary_price ON t_martin_lebl_project_sql_primary_final_1(price_in_year);
